@@ -13,3 +13,13 @@ def test_class_time():
     result = overlap_time(large, short)
     expected = short
     assert result == expected
+
+# Testing ideas
+#  - times don't overlap
+#  - times are identical
+#  - wrong time format
+#  - Gap longer than the time period
+#  - If the time is not divisiable by the number of gaps    
+
+
+    
