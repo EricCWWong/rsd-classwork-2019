@@ -15,7 +15,8 @@ def overlap_time(obs1, obs2):
         for tra, trb in obs2:
             low = max(tr0, tra)
             high = min(tr1, trb)
-            ot.append((low, high))
+            if low < high:
+                ot.append((low, high))
     return ot
 
 
